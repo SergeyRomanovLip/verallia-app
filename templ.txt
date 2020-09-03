@@ -1,0 +1,65 @@
+<div class='wrapper'>
+        <div class='header'>
+        </div>
+        <div class='checklist'>
+            
+                
+                <li class='checklist-container-unit'>
+                    <div class='checklist-container-unit-question'>
+                        
+                    </div>
+                    <div class='checklist-container-unit-btngrp'>
+
+                        <div class="checklist-container-unit-button-yes">
+                            Да
+                        </div>
+                        <div class="checklist-container-unit-button-no">
+                            Нет
+                        </div>
+                    </div>
+                </li>
+                <li class='checklist-container-unit'>
+                    <div class='checklist-container-unit-question'>
+                        
+                    </div>
+                    <div class='checklist-container-unit-btngrp'>
+
+                        <div class="checklist-container-unit-button-yes">
+                            Да
+                        </div>
+                        <div class="checklist-container-unit-button-no">
+                            Нет
+                        </div>
+                    </div>
+                </li>
+                <li class='checklist-container-unit'>
+                    <div class='checklist-container-unit-question'>
+                        
+                    </div>
+                    <div class='checklist-container-unit-btngrp'>
+
+                        <div class="checklist-container-unit-button-yes">
+                            Да
+                        </div>
+                        <div class="checklist-container-unit-button-no">
+                            Нет
+                        </div>
+                    </div>
+                </li>
+                <li class='checklist-container-unit'>
+                    <div class='checklist-container-unit-question'>
+                        
+                    </div>
+                    <div class='checklist-container-unit-btngrp'>
+
+                        <div class="checklist-container-unit-button-yes">
+                            Да
+                        </div>
+                        <div class="checklist-container-unit-button-no">
+                            Нет
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>

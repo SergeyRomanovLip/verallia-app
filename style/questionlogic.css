@@ -1,0 +1,35 @@
+.opened {
+  height: 150px !important;
+}
+.opened .checklist-container-unit-toolbar-items-text {
+  height: 120px;
+}
+
+.checklist-container-unit-toolbar {
+  height: 0;
+  transition: 0.5s all ease-in-out;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.checklist-container-unit-toolbar-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.checklist-container-unit-toolbar-items-text {
+  text-align: left;
+  padding: 10px;
+  margin-top: 5px;
+  height: 0px;
+  font-size: 16px;
+  width: 400px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  transition: 0.5s all ease-in-out;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}

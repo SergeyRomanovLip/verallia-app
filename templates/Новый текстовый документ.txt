@@ -1,0 +1,16 @@
+{
+    "host": "rsvisualstudio.ru",
+    "username": "u0950024",
+    "password": "0A!!C7Jo",
+    "remotePath": "/www/rsvisualstudio.ru/kamishibai",
+    "protocol": "ftp",
+    "port": 21,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        ".git",
+        "/.vscode"
+    ]
+}

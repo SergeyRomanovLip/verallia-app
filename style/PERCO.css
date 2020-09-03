@@ -1,0 +1,126 @@
+input,
+select,
+textarea {
+  padding: 5px;
+  height: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c0c0c0;
+  border-radius: 10px;
+  outline: none;
+}
+select {
+  height: 30px;
+}
+input[type='submit'],
+input[type='reset'] {
+  height: 30px;
+}
+
+.PERCOForm {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: auto;
+  margin-top: 200px;
+  padding: 10px;
+  max-width: 650px;
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #c0c0c0;
+}
+
+.PERCOForm-guest {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  text-decoration-style: none;
+  list-style-type: none;
+  width: 580px;
+}
+.PERCOForm-list {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+  width: 600px;
+}
+.PERCOForm-button-plus {
+  color: green;
+}
+.PERCOForm-button-minus {
+  color: darkred;
+}
+
+.PERCOForm-button-plus,
+.PERCOForm-button-minus {
+  display: inline;
+  padding: 8px;
+  font-size: 14px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+  border-color: #c0c0c0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.PERCOForm-button-plus:hover {
+  border-color: green;
+}
+.PERCOForm-button-minus:hover {
+  border-color: darkred;
+}
+.PERCOForm-button-plus:active {
+  background-color: green;
+}
+.PERCOForm-button-minus:active {
+  background-color: darkred;
+}
+.PERCOForm-guest-photo {
+  margin-top: 2px;
+}
+
+.PERCOForm-guest-inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.PERCOForm-guest-inputfile-label {
+  display: inline;
+  padding: 8px;
+  font-size: 14px;
+  color: gray;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: #c0c0c0;
+  display: inline-block;
+}
+.PERCOForm-guest-inputfile-label:hover {
+  border-color: gray;
+}
+.PERCOForm-guest-photo {
+  left: 600px;
+  position: absolute;
+  display: inline;
+  border-radius: 75px;
+  transition: 0.3s all;
+}
+.PERCOForm-guest-photo:hover {
+  z-index: 1000;
+  transform: scale(1.1);
+}
